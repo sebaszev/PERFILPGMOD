@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="libertiprofile"
+version="1.0.0"
+displayName="Liberti Profile"
+description='''
+Perfil de jugador: pulsa la rueda del ratón sobre un jugador para ver su perfil.
+Marco de color, fondos y estampillas personalizables, corazones y desafíos PvP.
+'''
+
+[[dependencies.libertiprofile]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.libertiprofile]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
