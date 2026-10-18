@@ -7,3 +7,12 @@ run/
 .project
 .settings/
 eclipse/
+
+# Archivos compilados y temporales
+bin/
+*.class
+logs/
+*.log
+accesstransform.log
+output.srg
+output.zip
